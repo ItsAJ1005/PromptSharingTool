@@ -1,3 +1,4 @@
+import Feed from "@components/Feed";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       </h1>
       <p className="desc text-center">Get Your Prompts is an open-source AI prompting tool for modern world to discover, create and share useful prompts</p>
 
-      {/* Feed */}
+      <Feed />
     </section>
   )
 }
