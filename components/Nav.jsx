@@ -42,7 +42,21 @@ const Nav = () => {
                 <Link href="/create-prompt" className='black_btn'>
                     Create Post
                 </Link>
+
+                <button typr="button" onClick={signOut} className='outline_btn'> Sign Out</button>
+
+                <Link href="/profile">
+                    <Image
+                        src='/assets/images/logo.svg'
+                        width={37}
+                        height={37}
+                        className='rounded-full'
+                        alt='profile'
+
+                    />
+                </Link>
             </div>
+
             
         ) : (
             <>
